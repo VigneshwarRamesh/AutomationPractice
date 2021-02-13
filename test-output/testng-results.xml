@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="6" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-09T16:53:17 IST" name="Suite" finished-at="2021-02-09T16:53:17 IST" duration-ms="141">
+    <groups>
+      <group name="Company Details">
+        <method signature="Grouping_test.empId()[pri:0, instance:testNG.Grouping_test@2e55dd0c]" name="empId" class="testNG.Grouping_test"/>
+      </group> <!-- Company Details -->
+      <group name="Bank Details">
+        <method signature="Grouping_test.accountNum()[pri:0, instance:testNG.Grouping_test@2e55dd0c]" name="accountNum" class="testNG.Grouping_test"/>
+        <method signature="Grouping_test.bankName()[pri:0, instance:testNG.Grouping_test@2e55dd0c]" name="bankName" class="testNG.Grouping_test"/>
+      </group> <!-- Bank Details -->
+    </groups>
+    <test started-at="2021-02-09T16:53:17 IST" name="Test" finished-at="2021-02-09T16:53:17 IST" duration-ms="141">
+      <class name="testNG.Grouping_test">
+        <test-method signature="accountNum()[pri:0, instance:testNG.Grouping_test@2e55dd0c]" started-at="2021-02-09T16:53:17 IST" name="accountNum" finished-at="2021-02-09T16:53:17 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountNum -->
+        <test-method signature="bankName()[pri:0, instance:testNG.Grouping_test@2e55dd0c]" started-at="2021-02-09T16:53:17 IST" name="bankName" finished-at="2021-02-09T16:53:17 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bankName -->
+        <test-method signature="empId()[pri:0, instance:testNG.Grouping_test@2e55dd0c]" started-at="2021-02-09T16:53:17 IST" name="empId" finished-at="2021-02-09T16:53:17 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- empId -->
+      </class> <!-- testNG.Grouping_test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
